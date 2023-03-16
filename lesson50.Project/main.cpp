@@ -1,15 +1,15 @@
-//#include<iostream>
-//using namespace std;
-//
-//int sum(int a, int b);
-//int sub(int a, int b);
-//
-//int main() {
-//	int a, b;
-//
-//	cout << "Input a and b: ";
-//	cin >> a >> b;
-//
-//	cout << "a + b = " << sum(a, b) << endl;
-//	cout << "a - b = " << sub(a, b) << endl;
-//}
+#include<iostream>
+#include "logic.h"
+using namespace std;
+
+int main() {
+	int a, b;
+
+	cout << "Input a, b and c: ";
+	cin >> a >> b;
+
+	int c = 1;
+
+	cout << "a + b = " << sum(a, b, c) << endl;
+	cout << "a - b = " << sub(a, b, c) << endl;
+}
